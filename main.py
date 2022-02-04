@@ -1,4 +1,3 @@
-from __future__ import annotations
 from dtu.server import Parameters, dtu
 
 
@@ -16,7 +15,6 @@ class Defaults(Parameters):
 
     def run(d: str, b: float, a: int, c: bool) -> None:
         print(b, d, a, c)
-        print(b.__class__, d.__class__, a.__class__, c.__class__)
 
 
 Defaults.start()
