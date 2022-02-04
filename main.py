@@ -16,6 +16,7 @@ class Defaults(Parameters):
 
     def run(d: str, b: float, a: int) -> None:
         print(b, d, a)
+        print(b.__class__, d.__class__, a.__class__)
         print(argv)
 
 
