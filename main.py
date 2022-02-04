@@ -1,3 +1,4 @@
+from __future__ import annotations
 from dtu.server import Parameters, dtu
 from sys import argv
 
