@@ -12,8 +12,8 @@ class Defaults(Parameters):
     a: int = 1
     d: str = "fd"
 
-    def run(d: str, b: float) -> None:
-        print(b, d)
+    def run(d: str, b: float, a: int) -> None:
+        print(b, d, a)
 
 
 Defaults.start()
