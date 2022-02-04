@@ -1,7 +1,5 @@
 #!/bin/sh
-#7350012501
-mkdir -p outputs/Example1/Markdown
-bsub -o "outputs/Example1/Markdown/Example1_0.md" -J "Example1_0" -env MYARGS="-name Example1-0 -GPU False -time 3600 -b 4.0 -a 1 -d dsf -ID 0" < submit_cpu.sh
+#8567972930
 mkdir -p outputs/Example2/Markdown
 bsub -o "outputs/Example2/Markdown/Example2_0.md" -J "Example2_0" -env MYARGS="-name Example2-0 -GPU True -time 3600 -b 4.0 -a 1 -d dssf -ID 0" < submit_gpu.sh
 mkdir -p outputs/Example3/Markdown
