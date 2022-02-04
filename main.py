@@ -10,11 +10,10 @@ class Defaults(Parameters):
 
     b: float = 2.0
     a: int = 1
-    c: bool = True
     d: str = "fd"
 
-    def run(d: str, b: float, a: int, c: bool) -> None:
-        print(b, d, a, c)
+    def run(d: str, b: float) -> None:
+        print(b, d)
 
 
 Defaults.start()
