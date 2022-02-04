@@ -1,4 +1,5 @@
 from dtu.server import Parameters, dtu
+from sys import argv
 
 
 @dtu
@@ -14,6 +15,7 @@ class Defaults(Parameters):
 
     def run(d: str, b: float, a: int) -> None:
         print(b, d, a)
+        print(argv)
 
 
 Defaults.start()
