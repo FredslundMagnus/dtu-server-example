@@ -1,6 +1,4 @@
-from __future__ import annotations
 from dtu.server import Parameters, dtu
-from sys import argv
 
 
 @dtu
@@ -12,12 +10,12 @@ class Defaults(Parameters):
 
     b: float = 2.0
     a: int = 1
+    c: bool = True
     d: str = "fd"
 
-    def run(d: str, b: float, a: int) -> None:
-        print(b, d, a)
-        print(b.__class__, d.__class__, a.__class__)
-        print(argv)
+    def run(d: str, b: float, a: int, c: bool) -> None:
+        print(b, d, a, c)
+        print(b.__class__, d.__class__, a.__class__, c.__class__)
 
 
 Defaults.start()
