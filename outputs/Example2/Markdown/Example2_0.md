@@ -976,3 +976,346 @@ Resource usage summary:
 
 The output (if any) is above this job summary.
 
+4.0 dssf 1 True
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 12548748: <Example2_0> in cluster <dcc> Done
+
+Job <Example2_0> was submitted from host <n-62-30-3> by user <s183905> in cluster <dcc> at Fri Feb  4 20:25:21 2022
+Job was executed on host(s) <n-62-20-11>, in queue <gpuv100>, as user <s183905> in cluster <dcc> at Fri Feb  4 20:25:23 2022
+</zhome/ee/d/137643> was used as the home directory.
+</zhome/ee/d/137643/Desktop/Test/dtu-server-example> was used as the working directory.
+Started at Fri Feb  4 20:25:23 2022
+Terminated at Fri Feb  4 20:25:24 2022
+Results reported at Fri Feb  4 20:25:24 2022
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/sh
+#BSUB -q gpuv100
+#BSUB -gpu "num=1:mode=exclusive_process"
+#BSUB -n 1
+#BSUB -R "rusage[mem=16G]"
+#BSUB -R "span[hosts=1]"
+#BSUB -W 1440
+# end of BSUB options
+module -s load python3
+source ../project-env/bin/activate
+
+python main.py $MYARGS
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   0.46 sec.
+    Max Memory :                                 -
+    Average Memory :                             -
+    Total Requested Memory :                     16384.00 MB
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              -
+    Max Threads :                                -
+    Run time :                                   97 sec.
+    Turnaround time :                            3 sec.
+
+The output (if any) is above this job summary.
+
+4.0 dssf 1 True
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 12548751: <Example2_0> in cluster <dcc> Done
+
+Job <Example2_0> was submitted from host <n-62-30-3> by user <s183905> in cluster <dcc> at Fri Feb  4 20:25:31 2022
+Job was executed on host(s) <n-62-20-11>, in queue <gpuv100>, as user <s183905> in cluster <dcc> at Fri Feb  4 20:25:31 2022
+</zhome/ee/d/137643> was used as the home directory.
+</zhome/ee/d/137643/Desktop/Test/dtu-server-example> was used as the working directory.
+Started at Fri Feb  4 20:25:31 2022
+Terminated at Fri Feb  4 20:25:33 2022
+Results reported at Fri Feb  4 20:25:33 2022
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/sh
+#BSUB -q gpuv100
+#BSUB -gpu "num=1:mode=exclusive_process"
+#BSUB -n 1
+#BSUB -R "rusage[mem=16G]"
+#BSUB -R "span[hosts=1]"
+#BSUB -W 1440
+# end of BSUB options
+module -s load python3
+source ../project-env/bin/activate
+
+python main.py $MYARGS
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   0.41 sec.
+    Max Memory :                                 -
+    Average Memory :                             -
+    Total Requested Memory :                     16384.00 MB
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              -
+    Max Threads :                                -
+    Run time :                                   8 sec.
+    Turnaround time :                            2 sec.
+
+The output (if any) is above this job summary.
+
+4.0 dssf 1 True
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 12548765: <Example2_0> in cluster <dcc> Done
+
+Job <Example2_0> was submitted from host <n-62-30-3> by user <s183905> in cluster <dcc> at Fri Feb  4 20:31:39 2022
+Job was executed on host(s) <n-62-20-6>, in queue <gpuv100>, as user <s183905> in cluster <dcc> at Fri Feb  4 20:31:40 2022
+</zhome/ee/d/137643> was used as the home directory.
+</zhome/ee/d/137643/Desktop/Test/dtu-server-example> was used as the working directory.
+Started at Fri Feb  4 20:31:40 2022
+Terminated at Fri Feb  4 20:31:42 2022
+Results reported at Fri Feb  4 20:31:42 2022
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/sh
+#BSUB -q gpuv100
+#BSUB -gpu "num=1:mode=exclusive_process"
+#BSUB -n 1
+#BSUB -R "rusage[mem=16G]"
+#BSUB -R "span[hosts=1]"
+#BSUB -W 1440
+# end of BSUB options
+module -s load python3
+source ../project-env/bin/activate
+
+python main.py $MYARGS
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   0.39 sec.
+    Max Memory :                                 -
+    Average Memory :                             -
+    Total Requested Memory :                     16384.00 MB
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              -
+    Max Threads :                                -
+    Run time :                                   7 sec.
+    Turnaround time :                            3 sec.
+
+The output (if any) is above this job summary.
+
+4.0 dssf 1 True
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 12548768: <Example2_0> in cluster <dcc> Done
+
+Job <Example2_0> was submitted from host <n-62-30-3> by user <s183905> in cluster <dcc> at Fri Feb  4 20:32:38 2022
+Job was executed on host(s) <n-62-20-6>, in queue <gpuv100>, as user <s183905> in cluster <dcc> at Fri Feb  4 20:32:38 2022
+</zhome/ee/d/137643> was used as the home directory.
+</zhome/ee/d/137643/Desktop/Test/dtu-server-example> was used as the working directory.
+Started at Fri Feb  4 20:32:38 2022
+Terminated at Fri Feb  4 20:32:40 2022
+Results reported at Fri Feb  4 20:32:40 2022
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/sh
+#BSUB -q gpuv100
+#BSUB -gpu "num=1:mode=exclusive_process"
+#BSUB -n 1
+#BSUB -R "rusage[mem=16G]"
+#BSUB -R "span[hosts=1]"
+#BSUB -W 1440
+# end of BSUB options
+module -s load python3
+source ../project-env/bin/activate
+
+python main.py $MYARGS
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   0.38 sec.
+    Max Memory :                                 -
+    Average Memory :                             -
+    Total Requested Memory :                     16384.00 MB
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              -
+    Max Threads :                                -
+    Run time :                                   45 sec.
+    Turnaround time :                            2 sec.
+
+The output (if any) is above this job summary.
+
+4.0 dssf 1 True
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 12548772: <Example2_0> in cluster <dcc> Done
+
+Job <Example2_0> was submitted from host <n-62-30-3> by user <s183905> in cluster <dcc> at Fri Feb  4 20:37:50 2022
+Job was executed on host(s) <n-62-20-6>, in queue <gpuv100>, as user <s183905> in cluster <dcc> at Fri Feb  4 20:37:51 2022
+</zhome/ee/d/137643> was used as the home directory.
+</zhome/ee/d/137643/Desktop/Test/dtu-server-example> was used as the working directory.
+Started at Fri Feb  4 20:37:51 2022
+Terminated at Fri Feb  4 20:37:52 2022
+Results reported at Fri Feb  4 20:37:52 2022
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/sh
+#BSUB -q gpuv100
+#BSUB -gpu "num=1:mode=exclusive_process"
+#BSUB -n 1
+#BSUB -R "rusage[mem=16G]"
+#BSUB -R "span[hosts=1]"
+#BSUB -W 1440
+# end of BSUB options
+module -s load python3
+source ../project-env/bin/activate
+
+python main.py $MYARGS
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   0.37 sec.
+    Max Memory :                                 -
+    Average Memory :                             -
+    Total Requested Memory :                     16384.00 MB
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              -
+    Max Threads :                                -
+    Run time :                                   87 sec.
+    Turnaround time :                            2 sec.
+
+The output (if any) is above this job summary.
+
+4.0 dssf 1 True
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 12548775: <Example2_0> in cluster <dcc> Done
+
+Job <Example2_0> was submitted from host <n-62-30-3> by user <s183905> in cluster <dcc> at Fri Feb  4 20:38:29 2022
+Job was executed on host(s) <n-62-20-6>, in queue <gpuv100>, as user <s183905> in cluster <dcc> at Fri Feb  4 20:38:30 2022
+</zhome/ee/d/137643> was used as the home directory.
+</zhome/ee/d/137643/Desktop/Test/dtu-server-example> was used as the working directory.
+Started at Fri Feb  4 20:38:30 2022
+Terminated at Fri Feb  4 20:38:32 2022
+Results reported at Fri Feb  4 20:38:32 2022
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/sh
+#BSUB -q gpuv100
+#BSUB -gpu "num=1:mode=exclusive_process"
+#BSUB -n 1
+#BSUB -R "rusage[mem=16G]"
+#BSUB -R "span[hosts=1]"
+#BSUB -W 1440
+# end of BSUB options
+module -s load python3
+source ../project-env/bin/activate
+
+python main.py $MYARGS
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   0.39 sec.
+    Max Memory :                                 -
+    Average Memory :                             -
+    Total Requested Memory :                     16384.00 MB
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              -
+    Max Threads :                                -
+    Run time :                                   39 sec.
+    Turnaround time :                            3 sec.
+
+The output (if any) is above this job summary.
+
+4.0 dssf 1 True
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 12548803: <Example2_0> in cluster <dcc> Done
+
+Job <Example2_0> was submitted from host <n-62-30-3> by user <s183905> in cluster <dcc> at Fri Feb  4 20:41:43 2022
+Job was executed on host(s) <n-62-20-11>, in queue <gpuv100>, as user <s183905> in cluster <dcc> at Fri Feb  4 20:41:44 2022
+</zhome/ee/d/137643> was used as the home directory.
+</zhome/ee/d/137643/Desktop/Test/dtu-server-example> was used as the working directory.
+Started at Fri Feb  4 20:41:44 2022
+Terminated at Fri Feb  4 20:41:45 2022
+Results reported at Fri Feb  4 20:41:45 2022
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/sh
+#BSUB -q gpuv100
+#BSUB -gpu "num=1:mode=exclusive_process"
+#BSUB -n 1
+#BSUB -R "rusage[mem=16G]"
+#BSUB -R "span[hosts=1]"
+#BSUB -W 1440
+# end of BSUB options
+module -s load python3
+source ../project-env/bin/activate
+
+python main.py $MYARGS
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   0.45 sec.
+    Max Memory :                                 -
+    Average Memory :                             -
+    Total Requested Memory :                     16384.00 MB
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              -
+    Max Threads :                                -
+    Run time :                                   49 sec.
+    Turnaround time :                            2 sec.
+
+The output (if any) is above this job summary.
+
